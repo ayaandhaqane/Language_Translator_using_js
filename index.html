@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Translator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Language Translator</h1>
+        <div class="from-groups" >
+            <label for="from-language">From:</label>
+            <select name="from-language" id="from"></select>
+        </div>
+
+        <div class="to-groups">
+            <label for="to-language">To:</label>
+            <select name="to-language" id="to"></select>
+        </div>
+        <div class="text-area">
+            <label for="translate">Text to Translate</label>
+            <textarea name="translate" id="translate-text" placeholder="write the text"></textarea>
+        </div>
+        <button id="translate-btn">Translate</button>
+
+        <div class="translated">
+            <div id="input-translated"></div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
